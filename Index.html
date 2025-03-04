@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<!--this is how you hash-->
+
+<!--color: #000;
+font-family: Italiana;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+from figma, the header
+
+not an indentation based language, 
+but have good indents for readability
+
+HTML is not super flexible with defining styles later on.
+Define styles first, to call on later, like 'donor wall'
+
+order within brackets doesn't matter for defining styles-->
+
+<style>
+    body {background-color: #000; font-family: 'Italiana'}
+    .main {text-align: center; padding: 40px}
+    .donor-wall {display: flex; justify-content: center; gap: 15px; margin: 20px auto; width: 80%; max-width: 1000px}
+</style>
+
+<head>
+    <body>
+    <!-- creating a navigation bar with sticky top-->
+    <nav class = "navbar navbar-expand-md sticky-top" style = "background-color: #A5D0A8;">
+        <!-- creating a division (group in Figma); can embed links within-->
+            <!-- embed png in same file as this one-->
+            <!-- < a href = "index"><img height = "50" src = </a> -->
+            <!-- buttons in this class -->
+        <div class = "container-fluid">
+        <div class = "collapse navbar-collapse justify-content-end" id = "navbarNav">
+            <div class = "navbar-nav">
+                <!-- HOME would refer to another file, for another page, in workspace -->
+                <a class = "nav-link" href = "index">HOME</a> 
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- reference style above -->
+    <div class = "main">
+        <h2>Thank You to Our Donors</h2>
+        <p>Your support helps make a difference yay!</p>
+    </div>
+    </body>
+</head>
+</html>
