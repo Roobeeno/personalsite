@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang = "en">
 
-<!--this is how you hash-->
+<style>
+    body {background-color: #000; width: 1512px; height: 3918px;}
+    .navlinks{float: right; color: #000; padding: 25px 10px; font-size: 24px; font-style: 'Italiana'; font-weight: 400;}
+    .logo {width: 395px; height: 78px; flex-shrink: 0; opacity: 0.8; background: #8CADA7;}
+    .triangle {width: 200px; aspect-ratio: 1; clip-path: polygon(50% 0, 100% 100%, 0 100%); color:#A5D0A8;}
+    .container {position : absolute}
 
-<!--color: #000;
-font-family: Italiana;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-from figma, the header
-
-not an indentation based language, 
-but have good indents for readability
-
-HTML is not super flexible with defining styles later on.
-Define styles first, to call on later, like 'donor wall'
-
-order within brackets doesn't matter for defining styles-->
+</style>
 
 <style>
-    body {background-color: #000; font-family: 'Italiana'}
-    .main {text-align: center; padding: 40px}
-    .donor-wall {display: flex; justify-content: center; gap: 15px; margin: 20px auto; width: 80%; max-width: 1000px}
+img { width: 100%; flex-shrink: 0; aspect-ratio: 1512/851;}
 </style>
 
 <head>
-    <body>
+    <link rel ='stylesheet' href = 'styles.css'>
+
     <!-- creating a navigation bar with sticky top-->
-    <nav class = "navbar navbar-expand-md sticky-top" style = "background-color: #A5D0A8;">
-        <!-- creating a division (group in Figma); can embed links within-->
-            <!-- embed png in same file as this one-->
-            <!-- < a href = "index"><img height = "50" src = </a> -->
-            <!-- buttons in this class -->
+    <nav class = "navbar navbar-expand-md sticky-top" style = "background-color: #A5D0A8; position: 'sticky'">
         <div class = "container-fluid">
-        <div class = "collapse navbar-collapse justify-content-end" id = "navbarNav">
-            <div class = "navbar-nav">
-                <!-- HOME would refer to another file, for another page, in workspace -->
-                <a class = "nav-link" href = "index">HOME</a> 
+        	<div class = "collapse navbar-collapse justify-content-end" id = "navbarNav">
+						
+                <a class = "navlinks" href = "index">Home</a> 
+                <a class = "navlinks" href = "index">About</a> 
+                <a class = "navlinks" href = "index">Resume</a>
+                <a class = "navlinks" href = "index">Contact</a> 
             </div>
         </div>
+
+        <div class="logo"></div>
+        
+    </head>
+    <body>
+        <div class="container">
+            <img src = "Colored neuron.png" alt="Neuron Image" style= "width:1512px; height: 851px;">
+            <div class = "triangle"></div>
         </div>
-    </nav>
-    <!-- reference style above -->
-    <div class = "main">
-        <h2>Thank You to Our Donors</h2>
-        <p>Your support helps make a difference yay!</p>
-    </div>
+
+        <div style= text-align:right ;>
+            <h2 style = 'color: white'>Hello There!</h2>
+            <p style = 'color: white'> My name is Robin. I study neuroscience, data science
+            and french at UC Berkeley. 
+            My interests lie at the intersection of 
+            neurodegenerative disease, fundamental neuroscience research, 
+            and neurotechnology.</p>
+        </div>
+    
     </body>
-</head>
 </html>
