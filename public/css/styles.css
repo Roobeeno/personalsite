@@ -1,0 +1,201 @@
+/* don't need to declare type */
+/* html {
+
+} */
+
+body {
+    background-color: black;
+    min-height: auto;
+    margin: 0px;
+}
+
+main{
+    margin: 20px;
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+.navbar ul {
+    white-space: nowrap;
+    position: relative;
+    list-style-type: none;
+    background-color: #A5D0A8;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+.navbar a {
+    color: black;
+    font-family: "Italiana", sans-serif;
+    text-decoration: none;
+    align-self: center;
+    align-content: center;
+    padding: 26px 20px;
+    float: right;
+  }
+
+.navbar a:hover {
+    color: #F2F4CB;
+    text-shadow: 2px 1px #B7990D;
+}
+
+.navbar li{
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.pagelink a {
+    color: white;
+    font-family: "Italiana", sans-serif;
+    text-decoration: none;
+    margin: auto;
+    align-content: center;
+    padding: 5px;
+}
+
+.pagelink a:hover {
+    color: #F2F4CB;
+    text-shadow: 2px 1px #B7990D;
+}
+
+.name {
+    font-family: "Italiana", sans-serif;
+    font-size: 30px;
+    float: left;
+    color: black; 
+    margin: 10px 0px 10px 20px; 
+    padding: 10px;
+    opacity: 1;
+    background: #8CADA7;
+}
+
+.robin {
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+
+
+p {
+    font-family: "Fira Sans", sans-serif;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    color: #FFF;
+    text-align:right;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: #FFF;
+    text-align: right;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.circle-image{
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 50%;
+    border: 10px solid #A5D0A8;
+    overflow: hidden;
+    width: 375px;
+    height: 375px;
+    margin: 0px 0px 0px 30px;
+  }
+
+.factoid{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background: #FFF;
+}
+
+.circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+.slant-image {
+    position: relative;
+}
+
+.triangles img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+
+/* transpose these for the other triangles */
+.fall-right-triangle { 
+	top: 0;
+	border-right: 100vw solid black;
+	border-bottom: 10vh solid transparent;
+    position: absolute;
+}
+
+.fall-left-triangle { 
+	top: 0;
+	border-left: 100vw solid black;
+	border-bottom: 10vh solid transparent;
+    position: absolute;
+}
+
+.up-right-triangle {
+    bottom: 0;
+	border-top: 10vh solid transparent;
+	border-right: 100vw solid black;
+    position: absolute;
+}
+
+.up-left-triangle {
+    bottom: 0;
+	border-top: 10vh solid transparent;
+	border-left: 100vw solid black;
+    position: absolute;
+}
+
+.footer {
+    background-color: #A5D0A8;
+    margin: 0px;
+}
+
